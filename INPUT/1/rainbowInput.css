@@ -1,0 +1,77 @@
+.wrap{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 배경 크기 조절하기 */
+    height: 40vh;
+    width: 40vw;
+    background: linear-gradient(45deg, #2196f3, #ff4685);
+}
+
+.container{
+    position: relative;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* input창 박스 크기조절 */
+.container .inputBox{
+    position: relative;
+    width : 100%;
+}
+.container .inputBox input{
+    width : 90%;
+    position: relative;
+    padding: 8px 10px;
+    border : none;
+    outline : none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    z-index: 2;
+}
+.container .inputBox span{
+    position: absolute;
+    left:0;
+    padding: 10px 0;
+    pointer-events: none;
+    font-size : 1.2rem;
+    transition: 0.5s;
+    color: #333;
+    letter-spacing: 0.1rem;
+}
+.container .inputBox input:valid~span,
+.container .inputBox input:focus~span {
+    font-size : 0.85em;
+    /* 포커스 됐을때 떠있는 글자 위로 얼마나 올라갈지 */
+    transform: translateY(-32px);
+}
+
+.container .inputBox i{
+    position: absolute;
+    bottom : 0;
+    left : 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(45deg, #2196f3, #ff4685);
+    transition: 0.5s;
+    z-index: 1;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.container .inputBox input:valid~i,
+.container .inputBox input:focus~i {
+    height: 100%;
+    box-shadow: inset 0 0 10p rgba(0, 0, 0, 0.25);
+}
