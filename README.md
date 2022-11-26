@@ -12,7 +12,7 @@
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
 
-# Share // :pig:
-<h3> 1. fixSharebar - add </h3>
+# etc // :pig:
+<h3> 1. fixSharebar - etc </h3>
 <img src="https://user-images.githubusercontent.com/92138800/204083940-bf2dbcbd-a0df-42d5-b1d2-2b3a3030df74.PNG" align="left"/>
 <img src="https://user-images.githubusercontent.com/92138800/204083941-4d2cb0bd-8c43-4ea0-ad8d-1a6dc9caf619.PNG" align="left"/>
