@@ -7,10 +7,10 @@
 
 # Input // :rose:
 <h3> 1. Rainbow - Input </h3>
-<img src="https://user-images.githubusercontent.com/92138800/204025669-325c0b35-9b49-4306-851d-d683ccbc1f77.PNG"  height="300" align="left"/>
-<img src="https://user-images.githubusercontent.com/92138800/204025682-728c81f3-3b25-4947-8ed8-9c14051ba389.PNG"  height="300" align="left"/>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
+<img src="https://user-images.githubusercontent.com/92138800/204025669-325c0b35-9b49-4306-851d-d683ccbc1f77.PNG"  height="200" align="left" />
+<img src="https://user-images.githubusercontent.com/92138800/204025682-728c81f3-3b25-4947-8ed8-9c14051ba389.PNG"  height="200" align="left"/>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 # Share // :pig:
 <h3> 1. fixSharebar - add </h3>
