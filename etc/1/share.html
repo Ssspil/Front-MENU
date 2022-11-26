@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./share.css" rel="stylesheet" type="text/css" />
+    <title>공유</title>
+</head>
+<body>
+    <div class="myArea">
+        <div class="menu">
+            <div class="toggle">
+                <ion-icon name="share-social"></ion-icon>
+            </div>
+            <li style="--i:0;--clr:#1877f2;">
+                <a href="#">
+                    <ion-icon name="flower"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:1;--clr:#25d366;">
+                <a href="#">
+                    <ion-icon name="ear"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:2;--clr:#1da1f2;">
+                <a href="#">
+                    <ion-icon name="people"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:3;--clr:#0a66c2;">
+                <a href="#">
+                    <ion-icon name="bag-check"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:4;--clr:#ea4c89;">
+                <a href="#">
+                    <ion-icon name="chatbubbles"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:5;--clr:#bd081c;">
+                <a href="#">
+                    <ion-icon name="heart"></ion-icon>
+                </a>
+            </li>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- 아이콘 스크립트 -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        
+        toggle.onclick = function(){
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
