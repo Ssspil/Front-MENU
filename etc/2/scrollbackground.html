@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./scrollbackground.css" rel="stylesheet" type="text/css" />
+    <title>스크롤 배경</title>
+</head>
+<body>
+    <div class="myOuter">
+        <section>
+            <div class="sec sec1"><h2>Ssspil</h2>
+                <div style="margin-left: 10%; line-height: 500px;">
+                    <h1><a href="#">회원가입</a></h1>
+                </div>
+            </div>
+            <div class="sec sec2"><h2>Ssspil</h2>
+                <div style="float: right; margin-right: 20%; line-height: 1500px;">
+                    <h1><a href="#">로그인</a></h1>
+                </div>
+            </div>
+            <h2>Ssspil</h2>
+        </section>
+    </div>
+
+    <script>
+        let sec1 = document.querySelector('.sec1');
+        let sec2 = document.querySelector('.sec2');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            sec1.style.clipPath = "circle("+value+"px at 0 0)";
+            sec2.style.clipPath = "circle("+value*1+"px at 100% 100%)";
+        })
+    </script>
+</body>
+</html>
