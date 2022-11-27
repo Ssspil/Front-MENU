@@ -16,3 +16,9 @@
 <h3> 1. fixSharebar - etc </h3>
 <img src="https://user-images.githubusercontent.com/92138800/204083940-bf2dbcbd-a0df-42d5-b1d2-2b3a3030df74.PNG" align="left"/>
 <img src="https://user-images.githubusercontent.com/92138800/204083941-4d2cb0bd-8c43-4ea0-ad8d-1a6dc9caf619.PNG" align="left"/>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+<h3> 2. scrollbackground - etc </h3>
+<img src="https://user-images.githubusercontent.com/92138800/204119242-802abf5b-15d4-4859-a5a1-5931dc3a2edd.png" width="400" height="240" />
+<img src="https://user-images.githubusercontent.com/92138800/204119257-50d74d47-84dc-4cf0-8bea-acfdfedbf6f8.png"  width="500" height="300"/>
