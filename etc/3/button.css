@@ -1,0 +1,112 @@
+.myOuter{
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 60vh;
+      background-color: #29272a;
+      width: 500px;
+  }
+  a {
+      position: relative;
+      width: 30%;
+      /* 버튼 밖 회색 네모 크키조절 */
+      height: 50px;
+      background: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: rgba(255, 255, 255, 0.5);
+      text-decoration: none;
+      letter-spacing: 0.2em;
+      font-size: 1.25em;
+      text-transform: uppercase;
+      font-weight: 500;
+      z-index: 1;
+      border-radius: 10px;
+  }
+
+  a::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #359ad8;
+      transform: scaleX(0);
+      transition: transform 0.5s ease-in-out;
+      /* hover할때 덮어씌워지는거 들어가는 방향? */
+      transform-origin: right;
+  }
+  /* 둥글둥글하게 하기위한것 없애도된다! */
+  a:hover::after, a:hover, a:hover::before, a::before, a::after{
+      border-radius: 10px;
+  }
+
+  a:hover::before{
+      transform: scale(1);
+      /* hover할때 덮어씌워지는거 나오는 방향 */
+      transform-origin: left;
+  }
+  a span {
+      display: inline-block;
+
+      z-index: 2;
+      transition: 0.5s ease-in-out;
+  }
+  a:hover span {
+      color : #333;
+
+  }
+  a i {
+      position: relative;
+      display: inline-block;
+      width: 2px;
+      height: 30px;
+      background: #d3d636;
+      transition: 0.5s, width 0.5s, height 0.5s;
+      transition-delay: 0s, 0.5s, 1s;
+  }
+  a:hover i {
+      width: 30px;
+      height: 2px;
+      background: #333;
+      transition-delay: 0s, 1s, 0.5s;
+  }
+  a i::before{
+      content: '';
+      position: absolute;
+      top: 0.5px;
+      right: 0;
+      width: 50%;
+      height: 2px;
+      background: transparent;
+      rotate: 0;
+      transform-origin: right;
+      transition: 1s;
+  }
+  a:hover i::before{
+      background: #333;
+      rotate: 45deg;
+      transition-delay: 1s;
+  }
+
+  a i::after{
+      content: '';
+      position: absolute;
+      top: -0.5px;
+      right: 0;
+      width: 50%;
+      height: 2px;
+      background: transparent;
+      rotate: 0;
+      transform-origin: right;
+      transition: 1s;
+  }
+  a:hover i::after{
+      background: #333;
+      rotate: -45deg;
+      transition-delay: 1s;
+  }
