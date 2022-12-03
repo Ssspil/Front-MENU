@@ -1,0 +1,73 @@
+.search-container{
+    /* 뒤 배경조절 */
+    min-height: 100px;
+    width: 500px;
+    background: linear-gradient(45deg, #4e65ff, #92effd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 0;
+    margin: 0;
+    top : 200px;
+}
+.searchBox{
+    position: relative;
+    /* 안에 입력창 조절 */
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.searchBox.active{
+    width: 360px;
+}
+
+.searchBox .search{
+    position: relative;
+    /* 안에 입풋창 안보일라면 .searchBox (width) 조절해야한다. */
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    cursor:pointer;
+}
+.searchBox .close {
+    position: relative;
+    width : 60px;
+    height: 60px;
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    cursor : pointer;
+    font-size : 1.25em;
+    scale: 0;
+    transition: 0.5s;
+}
+.searchBox.active .close{
+    scale: 1;
+    transition-delay: 0.5s;
+}
+.searchBox .searchInput{
+    position: absolute;
+    /* 아이콘 같은거 키우면 이것도 바꾸어 줘야함.. */
+    left: 60px;
+    width: calc(100% - 120px);
+    height : 100%;
+    line-height: 60px;
+}
+.searchBox .searchInput input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border : none;
+    outline:none;
+    font-size : 1.25em;
+}
