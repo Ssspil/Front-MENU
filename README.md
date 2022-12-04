@@ -13,8 +13,15 @@
 <h3> 1. Rainbow - Input </h3>
 <img src="https://user-images.githubusercontent.com/92138800/204025669-325c0b35-9b49-4306-851d-d683ccbc1f77.PNG"  height="200" align="left" />
 <img src="https://user-images.githubusercontent.com/92138800/204025682-728c81f3-3b25-4947-8ed8-9c14051ba389.PNG"  height="200" align="left"/>
-<br><br><br><br><br><br>
-<br><br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br>
+
+<h3> 2. input2 - Input </h3>
+<img src="https://user-images.githubusercontent.com/92138800/205474736-1b4fb406-6e4e-4b8e-acbd-0bb50d2be5e0.PNG"  width="300"  align="left"/>
+<img src="https://user-images.githubusercontent.com/92138800/205474737-d142b548-4736-447d-b6c2-f3616a6390cd.PNG"  width="400"  align="left"/>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+
 
 # etc // :pig:
 <h3> 1. fixSharebar - etc </h3>
