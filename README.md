@@ -42,3 +42,9 @@
 <h3> 4. headerbar - etc </h3>
 <img src="https://user-images.githubusercontent.com/92138800/205184493-3a61ce80-16b9-484a-bf2a-e6ad25b16b34.PNG" />
 <img src="https://user-images.githubusercontent.com/92138800/205184498-9330dc32-8a0c-4a3a-a564-0e924221b6a2.PNG" />
+
+<h3> 5. deletebutton - etc </h3>
+<img src="https://user-images.githubusercontent.com/92138800/206230840-a7c4aec3-ea74-48a2-b2a3-a9917c899635.PNG" align="left"/>
+<img src="https://user-images.githubusercontent.com/92138800/206230848-e52da27b-7cad-4332-973e-ceb4f0502d6d.PNG" align="left"/>
+<br><br><br><br><br><br>
+
