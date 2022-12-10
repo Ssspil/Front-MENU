@@ -19,8 +19,14 @@
 <h3> 2. input2 - Input </h3>
 <img src="https://user-images.githubusercontent.com/92138800/205474736-1b4fb406-6e4e-4b8e-acbd-0bb50d2be5e0.PNG"  width="300"  align="left"/>
 <img src="https://user-images.githubusercontent.com/92138800/205474737-d142b548-4736-447d-b6c2-f3616a6390cd.PNG"  width="400"  align="left"/>
-<br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+
+<h3> 3. input3 -input </h3>
+<img src="https://user-images.githubusercontent.com/92138800/206864651-a959ddd7-c8ef-4cad-8158-c8bafe270bb3.PNG" width="400" align="left"/>
+<img src="https://user-images.githubusercontent.com/92138800/206864653-37a388e5-090d-44a9-9ae0-af64379a69fc.PNG" width="400" align="left"/>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
 # etc // :pig:
