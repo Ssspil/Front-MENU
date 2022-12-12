@@ -52,5 +52,9 @@
 <h3> 5. deletebutton - etc </h3>
 <img src="https://user-images.githubusercontent.com/92138800/206230840-a7c4aec3-ea74-48a2-b2a3-a9917c899635.PNG" align="left"/>
 <img src="https://user-images.githubusercontent.com/92138800/206230848-e52da27b-7cad-4332-973e-ceb4f0502d6d.PNG" align="left"/>
-<br><br><br><br><br><br>
+<br><br><br>
+
+<h3> 6. to copy starbucks - etc </h3>
+<img src="https://user-images.githubusercontent.com/92138800/206941696-a779d602-4e4a-43a0-a226-39ecbbaea56c.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/92138800/206941698-6df90998-942b-4f75-9e95-ef1283a12fc0.PNG" width="500"/>
 
