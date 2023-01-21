@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보물상점</title>
+    <style>
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #fff;
+        }
+        .body .box{
+            position: relative;
+            width: 300px;
+            height: 600px;
+            background: rgb(107, 107, 107);
+            border-radius: 50px;
+        }
+        .inner{
+            position: absolute;
+            inset: 3px;
+            background: url();  /* 배경화면 */
+            background-size: cover;
+            background-position: center;
+            border-radius: 48px;
+            border: 10px solid #000;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+        }
+        .body .btn{
+            position: absolute;
+            top: 110px;
+            left: -2px;
+            width: 3px;
+            height: 26px;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            background: radial-gradient(#ccc, #666, #222);
+            z-index: 5;
+        }
+        .body .btn.btn2{
+            top :160px;
+            height: 40px;
+        }
+        .body .btn.btn3{
+            top :220px;
+            height: 40px;
+        }
+        .body .rightSideBtn{
+            position: absolute;
+            top: 170px;
+            right: -2px;
+            width: 3px;
+            height: 70px;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            background: radial-gradient(#ccc, #666, #222);
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="box">
+            <div class="inner">
+
+            </div>
+            <i class="btn btn1"></i>
+            <i class="btn btn2"></i>
+            <i class="btn btn3"></i>
+            <i class="rightSideBtn"></i>
+        </div>
+    </div>
+</body>
+</html>
