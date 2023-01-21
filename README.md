@@ -58,3 +58,7 @@
 <img src="https://user-images.githubusercontent.com/92138800/206941696-a779d602-4e4a-43a0-a226-39ecbbaea56c.PNG" width="500"/>
 <img src="https://user-images.githubusercontent.com/92138800/206941698-6df90998-942b-4f75-9e95-ef1283a12fc0.PNG" width="500"/>
 
+<h3> 7. iPhone frame - etx </h3>
+<img width="415" alt="스크린샷 2023-01-22 오전 12 20 31" src="https://user-images.githubusercontent.com/92138800/213873667-fad73200-cae8-4aa2-8ede-b7f4c9d80cf1.png">
+
+
